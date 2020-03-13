@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="onlineShop.css" />
+    <script src="https://kit.fontawesome.com/6c8d2143a1.js"></script>
+    <script src="jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="/resources/demos/style.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="onlineShop">
+      <div id="celaStrana">
+        <form>
+          <select name="Kategorije" id="kategorije"> </select>
+        </form>
+        <form>
+          <i class="fab fa-css3-alt fa-3x"></i>
+          <i class="fab fa-js-square fa-3x"></i>
+          <i class="fab fa-html5 fa-3x"></i>
+        </form>
+
+        <form>
+          <input id="inputFilter" type="text" placeholder="Filter..." />
+        </form>
+      </div>
+      <p id="cenaSlider">
+        <label for="amount">Price range:</label>
+        <input
+          type="text"
+          id="amount"
+          readonly
+          style="border:0; color:#f6931f; font-weight:bold;"
+        />
+        <button id="btnSlider">Check</button>
+      </p>
+
+      <div id="slider-range"></div>
+
+      <button id="btnKorpa"><i class="fas fa-shopping-cart fa-3x"></i></button>
+      <div id="listaKorpa"></div>
+      <div id="listaProdukataNaslov"></div>
+
+      <div id="listaProdukata"></div>
+    </section>
+    <script src="onlineShop.js"></script>
+  </body>
+</html>

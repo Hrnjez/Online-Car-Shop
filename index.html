@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://kit.fontawesome.com/6c8d2143a1.js"></script>
+    <script src="jquery.min.js"></script>
+
+    <title>WebShop</title>
+  </head>
+  <body>
+
+    <section id="title">
+      <h4> WebShop</h4>
+     
+      <p id="demo3">Opis zadatka: <br>
+        <br>
+          Cilj projektnog zadatka je kreiranje webshopa gde koirisnik ima uvid u proizvode iz dve kategorije. Prva kategorija su zakucani proizvodi(I Deo projekta) i druga kategorija podaci dobijeni sa servera(II Deo projekta). Korisnik ima mogućnost dodavanje proizvoda u korpu, pregled korpe, uklanjanje proizvoda iz korpe i naprednu pretragu.</p>
+    </section>
+    <section id="boxLeft">
+      <button id="btn1">Prvi deo - Moj Shop</button>
+      <p id="demo1">
+          „Moj Shop“ vodi na prvi deo projektnog zadatka i prikazuje proizvode koji su definisani u samom JS-u.„Moj Shop“ deo treba da sadrži u samom JS-u objekat „Proizvodi“ koji sadrži listu proizvoda. Model proizvoda treba da ima format. Obevazno je da ima bar 15 proizvoda od kojih bar 2 nema na stanju. Prozvod nije na stanju ako je vrednost UnitsInStock = 0 . Vrenost "Discount": "0" znaci da prozvod nema popust. Potrebno je imati izmedju 2 i 7 proizvoda koji imaju popust.
+        <br />
+        <a href="myShop.html"target="_blank"> Pogledaj prvi deo projekta. </a>
+      </p>
+    </section>
+    <section id="boxRight">
+      <button id="btn2">Drugi deo - Online Shop</button>
+      <div id="demo2">
+        <p> „Online Shop“ vodi na drugi deo projektnog zadatka. Drugi deo nas vodi na stranu za „Online Shop“ koja se nalazi u meniju. Kada kliknemo na link „Online Shop“ vodi nas na „login“ stranu koja ima dva inputa „username“ i „password“. Korsnik može da se uloguje ako je registrovan kupac. </p> 
+        <br />
+        <form id="logInBox">
+          <input id="user" type="text" placeholder="Username">
+          <input id="pw" type="password" placeholder="Password">
+          <br>
+          <button id="btnLogIn">Log In</button>
+        </form>
+  
+        <br>
+        <p id="pogresanIdPw">Pogresan Username ili Password, pokusaj ponovo. <br> Username: Maria Anders <br> Password: ALFKI </p>
+        <a id="drugiProjekat" href="onlineShop.html"target="_blank">Uspesno ste se ulogovali: <br> Pogledajte drugi deo projekta. </a>
+      </div>
+    </section>
+    <section id="footer">
+       <button id="btn3">Follow Me</button>
+        <div id="demo4">
+          <a href="https:/www.youtube.com" target="_blank">
+              <button id="btnLow">
+                  <i class="fab fa-youtube fa-2x"></i>
+              </button id="btnLow">
+          </a>
+          <a href="https:/www.facebook.com"target="_blank">
+              <button id="btnLow">
+                  <i class="fab fa-facebook fa-2x"></i>
+              </button>
+          </a>
+          <a href="https:/www.instagram.com"target="_blank">
+              <button id="btnLow">
+                  <i class="fab fa-whatsapp fa-2x"></i>
+              </button>
+          </a>
+        </div>
+    </section>
+
+ 
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/6c8d2143a1.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    
+    <title>WebShop</title>
+</head>
+
+<body>
+    <section id="homepage">
+        <section id="pageTop">
+            <div id="pcShop">
+                <h1>
+                  <span id="yellowText">WEB </span> 
+                <button id="btnPC">Cars</button> 
+                  <span id="yellowText">SHOP</span> 
+                </h1>
+            </div>
+            <div id="box1">
+                <a href="index.html">
+                <i class="fas fa-chevron-left fa-6x"> </i>
+              </a>
+            </div>
+        </section>
+        <section id="navBarWebShop">
+           
+            <div id="onlineShop">
+                <a href="index.html" target="_blank">
+                    <button id="onlineShopBtn"> Other Shop</button>
+                </a>
+            </div>
+            
+            <div id="shopingCart">
+               
+                <button id="cart"><i class="fas fa-shopping-cart fa-3x"></i></button>
+                <p id="korpaDemo"></p>
+                <p id="newsDemo"></p>
+            </div>
+        </section>
+        <section id="myCart">
+                <h1>Cart</h1>
+            <div id="korpa">
+            
+              
+            </div>
+           <div id="cena"></div>
+        </section>
+        <section id="pageWebShop">
+            <div id="webShop">
+                <h2>Products</h2>
+               
+            </div>
+        </section>
+
+        <table id="shopCart" hidden="true">
+            <tr>Proizovd</tr>
+            <tr>Proizovd</tr>
+            <tr>Proizovd</tr>
+            <tr>Cema </tr>
+
+        </table>
+        <section id="services">
+            <div id="bottomPage">
+                <h2>Follow Us</h2>
+            </div>
+            <div id="outGates">
+                <a href="https:/www.youtube.com">
+                    <button id="btnLow">
+                        <i class="fab fa-youtube fa-2x"></i>
+                    </button id="btnLow">
+                </a>
+                <a href="https:/www.facebook.com">
+                    <button id="btnLow">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </button>
+                </a>
+                <a href="https:/www.instagram.com">
+                    <button id="btnLow">
+                        <i class="fab fa-whatsapp fa-2x"></i>
+                    </button>
+                </a>
+                
+            </div>
+        </section>
+        <script src="myShop.js"></script>
+        <script type="text/javascript">
+            function getData(e) {
+                e.preventDefault();
+
+    
+      console.log(object);
+      createTable(object);
+    }
+            window.onload = getData;
+            </script>
+</body>
+
+</html>

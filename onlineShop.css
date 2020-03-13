@@ -1,0 +1,184 @@
+body {
+  background-color: rgb(20, 19, 19);
+  background-image: url(img/img1.png);
+}
+form {
+  text-align: center;
+}
+#kategorije,
+#inputFilter {
+  width: 150px;
+  background-color: transparent;
+  border: solid 2px rgb(2, 139, 250);
+  border-radius: 5px;
+  padding: 10px;
+  color: rgb(80, 162, 235);
+  margin-top: 10px;
+}
+table {
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 3px;
+}
+table tr td {
+  background-color: rgb(15, 19, 22);
+  color: rgb(6, 126, 238);
+  padding: 5px;
+  border-radius: 3px;
+}
+table tr td:first-child {
+  background-color: rgb(30, 34, 37);
+}
+table tr td:nth-child(2) {
+  text-align: center;
+  width: 250px;
+  color: rgb(1, 161, 253);
+}
+table tr td:nth-child(3) {
+  width: 90px;
+  color: rgb(189, 204, 214);
+  background-color: rgb(30, 34, 37);
+  text-align: center;
+}
+table tr td:nth-child(4) {
+  width: 140px;
+  text-align: center;
+}
+table tr td:nth-child(5) {
+  width: 30px;
+}
+
+#all {
+  color: rgb(80, 162, 235);
+}
+#btnAll {
+  background-color: rgb(80, 162, 235);
+  border: 0px;
+  border-radius: 25px;
+}
+#btnAll:hover {
+  background-color: rgb(145, 190, 229);
+}
+#celaStrana {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgb(9, 147, 228);
+}
+i {
+  color: rgb(6, 126, 238);
+}
+i:hover {
+  color: rgb(124, 182, 236);
+}
+@media (min-width: 650px) {
+  #divDemo {
+    border: 2px solid rgb(2, 139, 250);
+    width: 580px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 3px;
+  }
+}
+#divDemo {
+  border: 2px solid rgb(2, 139, 250);
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 3px;
+}
+#divDemo tr td {
+  background-color: rgb(15, 19, 22);
+  color: rgb(6, 126, 238);
+  padding: 5px;
+}
+#divDemo td:first-child {
+  background-color: rgb(30, 34, 37);
+}
+#divDemo tr td:nth-child(2) {
+  text-align: center;
+  width: 250px;
+  color: rgb(1, 161, 253);
+}
+#divDemo tr td:nth-child(3) {
+  width: 90px;
+  color: rgb(189, 204, 214);
+  background-color: rgb(30, 34, 37);
+  text-align: center;
+}
+#divDemo tr td:nth-child(4) {
+  width: 140px;
+  text-align: center;
+}
+#divDemo tr td:nth-child(5) {
+  width: 30px;
+}
+#amount {
+  padding: 5px;
+  background-color: rgb(47, 75, 100);
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+p label {
+  color: rgb(0, 162, 255);
+}
+#slider-range {
+  width: 40%;
+  margin: auto;
+  border: rgb(11, 117, 238) 2px solid;
+}
+#cenaSlider {
+  text-align: center;
+  border-top: 2px solid rgb(206, 206, 236);
+  border-top: 2px solid rgb(206, 206, 236);
+  width: 50%;
+  margin: auto;
+}
+#btnSlider {
+  margin: 10px;
+  border: 2px solid rgb(0, 98, 255);
+  background-color: transparent;
+
+  border-radius: 5px;
+  color: white;
+}
+#btnSlider:hover {
+  color: rgb(0, 119, 255);
+}
+td button,
+#btnDelete {
+  color: rgb(222, 228, 241);
+  background-color: rgb(47, 84, 139);
+  border-radius: 50px;
+  border: 2px solid rgb(33, 100, 245);
+  margin-top: 10px;
+}
+td button:hover,
+#btnDelete:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(19, 64, 131);
+  border: 2px solid rgb(0, 78, 246);
+}
+#btnKorpa {
+  background-color: transparent;
+  border: none;
+  padding: 20px;
+}
+button {
+  border: 0px;
+  outline: 0px;
+}
+#onlineShop {
+  text-align: center;
+}
+#buyInfo {
+  color: rgb(0, 255, 0);
+  padding: 20px;
+  margin: 20px;
+  display: inline;
+}
