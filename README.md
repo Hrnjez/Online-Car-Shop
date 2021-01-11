@@ -1,6 +1,10 @@
 # Online-Car-Shop
 This project is a set of tasks i had to do. Looks like some online car shop.  
-************************************************
+***
+## Important
+>       var username = logInProductsList[i].ContactName;
+>       var password = logInProductsList[i].CustomerID;
+***
 Task description
 The aim of the project is to create a webshop where the user has insight into products in two categories. The first one
 the category is hooked products (Part I of the project) and the second category is data obtained from the server (Part II
